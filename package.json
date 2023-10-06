@@ -1,0 +1,28 @@
+{
+  "name": "bote",
+  "version": "1.0.0",
+  "description": "bote",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedro-Luucas/bote.git"
+  },
+  "author": "pedrao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedro-Luucas/bote/issues"
+  },
+  "homepage": "https://github.com/Pedro-Luucas/bote#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
